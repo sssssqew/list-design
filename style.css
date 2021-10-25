@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#photo-box{
+    width: 600px;
+    height: 200px;
+    background: skyblue;
+    text-align: center;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px){
+    #photo-box{
+        height: 420px;
+    }
+    .photo{
+        width: 90%;
+    }
+    .photo:nth-child(2){
+        margin-top: 20px;
+    }
+}
